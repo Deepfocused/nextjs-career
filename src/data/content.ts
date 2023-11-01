@@ -20,7 +20,7 @@ export const contentData: Content[] = [
                 subTitle: 'AI 개발자',
                 date: '2020.10 - 2022.06',
                 description:
-                    '<span class="text-sm mt-1">1. 드론 영상 기반 지붕 검사 알고리즘 개발 및 실제 환경(qt) 적용</span><br>' +
+                    '<span class="text-sm mt-1">1. 드론 영상 기반 지붕 검사 알고리즘 개발 및 실제 환경(QT) 적용</span><br>' +
                     '<span class="text-sm mt-1">2. 모바일 PDA 문자인식 시스템 개발 및 실제 환경(서버)에 적용</span><br>' +
                     '<span class="text-xs mt-2"># 팀내 study / 신기술 도입 주도</span><br><span class="text-xs mt-1"># 팀내 분위기 메이커</span>',
             },
