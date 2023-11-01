@@ -1,15 +1,15 @@
-import {Inter as InterFont} from 'next/font/google';
+import { Inter as InterFont } from 'next/font/google';
 import '@/styles/globals.css';
-import {siteMetadata} from '@/config/seo';
-import {ReactNode, Suspense} from 'react';
+import { siteMetadata } from '@/config/seo';
+import { ReactNode, Suspense } from 'react';
 import NavigationEvents from './navigation-events';
 import Loading from './loading';
 import GoogleAnalytics from '@/libs/googleanalytics';
-import {Providers} from './providers';
+import { Providers } from './providers';
 import 'aos/dist/aos.css';
-import {Viewport} from 'next';
+import { Viewport } from 'next';
 
-export const metadata = {...siteMetadata};
+export const metadata = { ...siteMetadata };
 export const viewport: Viewport = {
     themeColor: '#DAD9FF',
 };
@@ -20,7 +20,7 @@ const interFont = InterFont({
     preload: false,
 });
 
-export default function RootLayout({children}: { children: ReactNode }) {
+export default function RootLayout({ children }: { children: ReactNode }) {
     return (
         <html
             lang="ko"
@@ -28,20 +28,20 @@ export default function RootLayout({children}: { children: ReactNode }) {
                 interFont.className
             } ${'bg-gradient-to-r from-purple-400 to-orange-300'}`}
         >
-        {process.env.NEXT_PUBLIC_GA_TRACKING_ID && (
-            <GoogleAnalytics
-                GA_TRACKING_ID={process.env.NEXT_PUBLIC_GA_TRACKING_ID}
-            />
-        )}
-        <body className="m-0 p-0">
-        <Providers>
-            {/*<header></header>*/}
-            <main>{children}</main>
-            <Suspense fallback={<Loading/>}>
-                <NavigationEvents/>
-            </Suspense>
-        </Providers>
-        </body>
+            {process.env.NEXT_PUBLIC_GA_TRACKING_ID && (
+                <GoogleAnalytics
+                    GA_TRACKING_ID={process.env.NEXT_PUBLIC_GA_TRACKING_ID}
+                />
+            )}
+            <body className="m-0 p-0">
+                <Providers>
+                    {/*<header></header>*/}
+                    <main>{children}</main>
+                    <Suspense fallback={<Loading />}>
+                        <NavigationEvents />
+                    </Suspense>
+                </Providers>
+            </body>
         </html>
     );
 }

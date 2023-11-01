@@ -3,7 +3,7 @@
     "short_name": "Deepfocused Resume",
     "icons": [
         {
-            "src": "/images/me.jpg",
+            "src": "/images/we.jpg",
             "sizes": "640x480",
             "type": "image/jpg"
         }
