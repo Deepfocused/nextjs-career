@@ -12,7 +12,6 @@ export const siteMetadata = {
         },
     ],
     creator: 'Deepfocused',
-    themeColor: [{ media: '(prefers-color-scheme: light)', color: 'cyan' }],
     openGraph: {
         type: 'website',
         locale: 'ko_KR',
