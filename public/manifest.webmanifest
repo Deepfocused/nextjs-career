@@ -4,7 +4,7 @@
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "Deepfocused Next.js Resume",
+    "name": "Deepfocused Resume",
     "short_name": "Deepfocused Resume",
     "description": "A page explaining Deepfocused career and skills",
     "icons": [
