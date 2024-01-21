@@ -2,7 +2,7 @@ import { siteConfig } from '@/config/site';
 
 export const siteMetadata = {
     metadataBase: new URL('https://deepfocused-resume.vercel.app'),
-    title: 'Deepfocused',
+    title: 'Deepfocused Resume',
     description: siteConfig.description,
     keywords: [],
     authors: [

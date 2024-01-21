@@ -4,9 +4,9 @@
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "Deepfocused Next.js Resume App",
+    "name": "Deepfocused Next.js Resume",
     "short_name": "Deepfocused Resume",
-    "description": "A page introducing deepfocused's career.",
+    "description": "A page explaining Deepfocused career and skills",
     "icons": [
         {
             "src": "/icon-192x192.png",

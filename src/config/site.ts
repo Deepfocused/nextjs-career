@@ -1,8 +1,8 @@
 import type { SiteConfig } from '@/types';
 
 export const siteConfig: SiteConfig = {
-    name: 'Deepfocused',
-    description: 'Deepfocused`s Resume APP',
+    name: 'Deepfocused Next.js Resume',
+    description: 'A page explaining Deepfocused career and skills.',
     url: 'https://deepfocused-resume.vercel.app/',
     ogImageUrl: '/images/we.jpg',
     links: {
