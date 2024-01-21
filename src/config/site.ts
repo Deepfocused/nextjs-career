@@ -6,6 +6,6 @@ export const siteConfig: SiteConfig = {
     url: 'https://deepfocused-resume.vercel.app/',
     ogImageUrl: '/images/we.jpg',
     links: {
-        github: 'https://github.com/Deepfocused',
+        github: 'https://github.com/Deepfocused/nextjs-career',
     },
 };
