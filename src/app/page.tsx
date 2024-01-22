@@ -58,8 +58,8 @@ function Home() {
     return (
         <motion.div
             className="mx-auto mb-[7%] mt-[7%] h-full w-[98%] w-full bg-white min-[640px]:w-3/5 min-[1024px]:w-2/5"
-            initial={{ opacity: 0, scale: 0.0, y: '0%' }}
-            animate={{ rotate: 180 }}
+            initial={{ opacity: 1, scale: 1.0, y: '0%' }}
+            animate={{ rotate: 360 }}
             transition={{ type: 'spring', velocity: 2 }}
         >
             <div className="px-8 py-8">
