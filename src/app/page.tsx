@@ -64,7 +64,7 @@ function Home() {
                 scale: [1, 1, 1, 1, 1, 1], // x : ["5%", "0%"], y: ["0%", "5%"]
             }}
             transition={{
-                ease: 'linear',
+                ease: 'easeIn',
                 duration: 1,
             }}
         >
