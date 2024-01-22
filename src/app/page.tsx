@@ -64,8 +64,8 @@ function Home() {
                 scale: [1, 1, 1, 1, 1, 1], // x : ["5%", "0%"], y: ["0%", "5%"]
             }}
             transition={{
-                ease: 'easeIn',
-                duration: 1,
+                ease: 'linear',
+                duration: 1.1,
             }}
         >
             <div className="px-8 py-8">
