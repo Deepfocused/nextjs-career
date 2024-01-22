@@ -65,7 +65,7 @@ function Home() {
             }}
             transition={{
                 ease: 'linear',
-                duration: 1.1,
+                duration: 1,
             }}
         >
             <div className="px-8 py-8">
