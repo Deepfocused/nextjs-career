@@ -62,7 +62,6 @@ export const siteMetadata = {
                 url: '/splashscreens/iphonexsmax_splash.png',
             },
             {
-
                 media: '(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)',
                 url: '/splashscreens/ipad_splash.png',
             },
@@ -77,8 +76,8 @@ export const siteMetadata = {
             {
                 media: '(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)',
                 url: '/splashscreens/ipadpro2_splash.png',
-            }
+            },
         ],
     },
     manifest: '/manifest.webmanifest',
-}
+};
