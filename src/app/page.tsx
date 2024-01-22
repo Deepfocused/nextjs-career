@@ -63,10 +63,6 @@ function Home() {
                 opacity: [0.0, 0.1, 0.2, 0.4, 0.8, 1],
                 scale: [1, 1, 1, 1, 1, 1], // x : ["5%", "0%"], y: ["0%", "5%"]
             }}
-{/*             transition={{
-                ease: 'linear',
-                duration: 1.1,
-            }} */}
             transition={{ type: "spring", duration: 2 }}
         >
             <div className="px-8 py-8">
