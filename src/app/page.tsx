@@ -58,10 +58,10 @@ function Home() {
     return (
         <motion.div
             className="mx-auto mb-[7%] mt-[7%] h-full w-[98%] w-full bg-white min-[640px]:w-3/5 min-[1024px]:w-2/5"
-            initial={{ opacity: 0, scale: 0.8, y: '0%' }}
+            initial={{ opacity: 0, scale: 1, y: '0%' }}
             animate={{
                 opacity: [0.0, 0.1, 0.2, 0.4, 0.8, 1],
-                scale: [0.8, 0.9, 1, 1, 1, 1], // x : ["5%", "0%"], y: ["0%", "5%"]
+                scale: [1, 1, 1, 1, 1, 1], // x : ["5%", "0%"], y: ["0%", "5%"]
             }}
             transition={{ ease: 'linear', duration: 1.21 }}
         >
