@@ -29,58 +29,56 @@ export const siteMetadata = {
     icons: {
         icon: '/favicon.png',
         apple: '/icon-192x192.png',
-        other: [
+    },
+    appleWebApp: {
+        title: 'for apple splash',
+        startupImage: [
             {
-                rel: 'apple-touch-startup-image',
-                media: '(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)',
+                media: '(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)',
                 url: '/splashscreens/iphone5_splash.png',
             },
             {
-                rel: 'apple-touch-startup-image',
-                media: '(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)',
+                media: '(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)',
+                url: '/splashscreens/iphone5_splash.png',
+            },
+            {
+                media: '(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)',
                 url: '/splashscreens/iphone6_splash.png',
             },
             {
-                rel: 'apple-touch-startup-image',
-                media: '(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)',
+                media: '(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)',
                 url: '/splashscreens/iphoneplus_splash.png',
             },
             {
-                rel: 'apple-touch-startup-image',
-                media: '(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)',
+                media: '(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)',
                 url: '/splashscreens/iphonex_splash.png',
             },
             {
-                rel: 'apple-touch-startup-image',
-                media: '(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)',
+                media: '(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)',
                 url: '/splashscreens/iphonexr_splash.png',
             },
             {
-                rel: 'apple-touch-startup-image',
-                media: '(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)',
+                media: '(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)',
                 url: '/splashscreens/iphonexsmax_splash.png',
             },
             {
-                rel: 'apple-touch-startup-image',
-                media: '(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)',
+
+                media: '(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)',
                 url: '/splashscreens/ipad_splash.png',
             },
             {
-                rel: 'apple-touch-startup-image',
-                media: '(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)',
+                media: '(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)',
                 url: '/splashscreens/ipadpro1_splash.png',
             },
             {
-                rel: 'apple-touch-startup-image',
-                media: '(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)',
+                media: '(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)',
                 url: '/splashscreens/ipadpro3_splash.png',
             },
             {
-                rel: 'apple-touch-startup-image',
-                media: '(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)',
+                media: '(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)',
                 url: '/splashscreens/ipadpro2_splash.png',
             }
-          ],
-        },
+        ],
+    },
     manifest: '/manifest.webmanifest',
-};
+}
