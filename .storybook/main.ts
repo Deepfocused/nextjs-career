@@ -6,17 +6,14 @@ const config: StorybookConfig = {
         '@storybook/addon-links',
         '@storybook/addon-essentials',
         '@storybook/addon-interactions',
+        '@chromatic-com/storybook'
     ],
     framework: {
         name: '@storybook/nextjs',
         options: {
-            builder: {
-                useSWC: true, // Enables SWC support
-            },
+            builder: {},
         },
     },
-    docs: {
-        autodocs: 'tag',
-    },
+    docs: {},
 };
 export default config;
