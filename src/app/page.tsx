@@ -22,11 +22,13 @@ import AOS from 'aos';
 
 const nameFont = Sunflower({
     weight: ['700'],
+    subsets: ['latin'],
     display: 'swap'
 });
 
 const contentFont = Sunflower({
     weight: ['500'],
+    subsets: ['latin'],
     display: 'swap'
 });
 
