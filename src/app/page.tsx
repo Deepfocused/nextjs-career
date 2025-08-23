@@ -32,6 +32,7 @@ const contentFont = Sunflower({
 
 const developerFont = Martian_Mono({
     weight: ['800'],
+    subsets: ['latin'],
     display: 'swap'
 });
 
