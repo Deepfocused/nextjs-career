@@ -22,20 +22,17 @@ import AOS from 'aos';
 
 const nameFont = Sunflower({
     weight: ['700'],
-    display: 'swap',
-    preload: false,
+    display: 'swap'
 });
 
 const contentFont = Sunflower({
     weight: ['500'],
-    display: 'swap',
-    preload: false,
+    display: 'swap'
 });
 
 const developerFont = Martian_Mono({
     weight: ['800'],
-    display: 'swap',
-    preload: false,
+    display: 'swap'
 });
 
 function Home() {
