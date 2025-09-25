@@ -6,7 +6,7 @@ export const generalData: General = {
         "<span class='bg-gradient-to-r from-orange-600 to-orange-400 bg-clip-text font-bold text-transparent'>AI</span><span class='text-gray-700'> / </span><span class='bg-gradient-to-r from-orange-600 to-orange-300 bg-clip-text font-bold text-transparent'>Web Developer</span>",
     about:
         "<span class='text-md'>저는 </span>" +
-        "<span><span class='text-purple-600 font-bold'>2(석사)</span> + <span class='text-orange-600 font-bold'>7(실무)</span><span> 년차</span></span>" +
+        "<span><span class='text-purple-600 font-bold'>2(석사)</span> + <span class='text-orange-600 font-bold'>8(실무)</span><span> 년차</span></span>" +
         "<span class='bg-gradient-to-r from-orange-600 to-orange-400 bg-clip-text font-bold text-transparent'>  AI</span>" +
         "<span class='text-gray-700 font-bold'> / </span>" +
         "<span class='bg-gradient-to-r from-orange-600 to-orange-400 bg-clip-text font-bold text-transparent'>Web 개발자 김종곤</span>" +
