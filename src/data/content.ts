@@ -9,7 +9,7 @@ export const contentData: Content[] = [
                 subTitle: 'AI / Backend 개발자',
                 date: '2023.11 - Now',
                 description:
-                    '<span class="text-sm mt-1">1. LG Exaone 모델(v1, v2, v3, v3.5, ~) 추론 최적화 및 vLLM(custom, 오픈 소스 기여), sglang(custom, 오픈 소스 기여)에 적용 및 실제 서비스에 적용</span><br>' +
+                    '<span class="text-sm mt-1">1. LG Exaone 모델(v1, v2, v3, v3.5, v4.5, ~) 추론 최적화 및 vLLM(custom, 오픈 소스 기여), sglang(custom, 오픈 소스 기여)에 적용 및 실제 서비스에 적용</span><br>' +
                     '<span class="text-sm mt-1">2. LG LLaVA 모델 추론 최적화 및 vLLM에 적용 및 실제 서비스에 적용</span><br>' +
                     '<span class="text-sm mt-1">3. Google Cloud Platform Controller API 서버 개발 및 사내 서비스에 적용</span><br>' +
                     '<span class="text-sm mt-1">4. LLM 모델 경량화 관련 리서치 및 서비스에 적용</span><br>' + 
